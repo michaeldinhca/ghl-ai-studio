@@ -1,0 +1,86 @@
+{
+  "name": "NGYN AI Frontier",
+  "prefix": "nafr-ai-studio-site",
+  "entry": "index.html",
+  "baseUrl": "https://mockup.ngynsolutions.com/ghl-ai-studio/",
+  "index": true,
+  "mock": true,
+  "updated": "2026-10-15T15:37:04+00:00",
+  "pages": [],
+  "drafts": [
+    {
+      "slug": "home",
+      "label": "Home",
+      "url": "index.html",
+      "title": "Lean Six Sigma Consulting for Any Business Size | NGYN",
+      "description": "Lean Six Sigma consulting for small and growing businesses. DMAIC projects, waste reduction and practical automation that cut cost and variation you can measure.",
+      "index": true
+    },
+    {
+      "slug": "dmaic-process-improvement",
+      "label": "Dmaic process improvement",
+      "url": "dmaic-process-improvement.html",
+      "title": "DMAIC Process Improvement Consulting | NGYN AI Frontier",
+      "description": "DMAIC explained phase by phase: Define, Measure, Analyze, Improve, Control. See the tools, a 10 week timeline and what you receive from each Six Sigma phase.",
+      "index": true
+    },
+    {
+      "slug": "lean-six-sigma-small-business",
+      "label": "Lean six sigma small business",
+      "url": "lean-six-sigma-small-business.html",
+      "title": "Lean Six Sigma for Small Business | NGYN AI Frontier",
+      "description": "Lean Six Sigma for small business without corporate overhead. 5S, Kaizen events and DMAIC scaled to teams of 1 to 250 people, with quick wins in two weeks.",
+      "index": true
+    },
+    {
+      "slug": "lean-six-sigma-training",
+      "label": "Lean six sigma training",
+      "url": "lean-six-sigma-training.html",
+      "title": "Lean Six Sigma Training: Yellow & Green Belt | NGYN",
+      "description": "Lean Six Sigma Yellow Belt and Green Belt training built around a live project in your business. Learn DMAIC on your own data and finish with a measured result.",
+      "index": true
+    },
+    {
+      "slug": "accessibility",
+      "label": "Accessibility",
+      "url": "accessibility.html",
+      "title": "Accessibility Statement | NGYN AI Frontier",
+      "description": "How NGYN AI Frontier makes its website usable for everyone: WCAG 2.1 AA practices, accessibility options on every page and how to request accessible formats.",
+      "index": true
+    },
+    {
+      "slug": "404",
+      "label": "404",
+      "url": "404.html",
+      "title": "Page Not Found | NGYN AI Frontier",
+      "description": "The page you were looking for could not be found. Explore Lean Six Sigma consulting, DMAIC process improvement and training from NGYN AI Frontier instead.",
+      "index": false
+    },
+    {
+      "slug": "thank-you",
+      "label": "Thank you",
+      "url": "thank-you.html",
+      "title": "Thank You | NGYN AI Frontier",
+      "description": "Thanks for requesting a Lean Six Sigma process review from NGYN AI Frontier. We will reply within one business day to schedule a time that works for you.",
+      "index": false
+    }
+  ],
+  "seo": {
+    "errors": [],
+    "warnings": []
+  },
+  "linkCheck": {
+    "broken": [],
+    "unlinked": []
+  },
+  "generated": [
+    "404.html",
+    "accessibility.html",
+    "dmaic-process-improvement.html",
+    "index.html",
+    "lean-six-sigma-small-business.html",
+    "lean-six-sigma-training.html",
+    "sitemap.xml",
+    "thank-you.html"
+  ]
+}

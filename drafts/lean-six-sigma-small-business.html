@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en-CA"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Lean Six Sigma for Small Business | NGYN AI Frontier</title>
+<meta name="description" content="Lean Six Sigma for small business without corporate overhead. 5S, Kaizen events and DMAIC scaled to teams of 1 to 250 people, with quick wins in two weeks.">
+<meta property="og:title" content="Lean Six Sigma for Small Business | NGYN AI Frontier"><meta property="og:description" content="Lean Six Sigma for small business without corporate overhead. 5S, Kaizen events and DMAIC scaled to teams of 1 to 250 people, with quick wins in two weeks."><meta property="og:image" content="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1600&q=70&auto=format&fit=crop">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=JetBrains+Mono:wght@500&family=Space+Grotesk:wght@500;600&display=swap" rel="stylesheet">
+<style>
+:root{--nafr-ink:#10161f;--nafr-ink-2:#1a2330;--nafr-paper:#f6f4ef;--nafr-card:#ffffff;
+--nafr-line:#d9d4c8;--nafr-text:#1b222c;--nafr-muted:#4f5967;--nafr-accent:#d7351f;
+--nafr-accent-strong:#a8240f;--nafr-signal:#1f8a70;--nafr-on-dark:#eef1f4;--nafr-on-dark-muted:#a9b4c2;
+--nafr-radius:14px;--nafr-max:1200px;--nafr-display:'Space Grotesk','Space Grotesk Fallback',system-ui,sans-serif;
+--nafr-body:'DM Sans','DM Sans Fallback',system-ui,sans-serif;--nafr-mono:'JetBrains Mono',ui-monospace,monospace}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+body{margin:0;background:var(--nafr-paper);color:var(--nafr-text);font:17px/1.65 var(--nafr-body)}
+img{max-width:100%;display:block}
+a{color:var(--nafr-accent-strong)}
+:focus-visible{outline:3px solid var(--nafr-accent);outline-offset:3px;border-radius:4px}
+.nafr-skip{position:absolute;left:-999px;top:8px;background:#fff;color:#000;padding:10px 14px;z-index:100}
+.nafr-skip:focus{left:8px}
+.nafr-wrap{width:min(var(--nafr-max),100% - 32px);margin:0 auto}
+h1,h2,h3{font-family:var(--nafr-display);line-height:1.1;letter-spacing:-.02em;margin:0 0 .5em}
+h1{font-size:clamp(2.4rem,5.6vw,4.6rem);font-weight:600}
+h2{font-size:clamp(1.8rem,3.4vw,2.8rem);font-weight:600}
+h3{font-size:1.25rem;font-weight:600}
+.nafr-eyebrow{font:500 .8rem/1 var(--nafr-mono);letter-spacing:.12em;text-transform:uppercase;color:var(--nafr-accent-strong);margin:0 0 14px}
+.nafr-dark .nafr-eyebrow{color:#ff8a73}
+.nafr-lead{font-size:1.2rem;color:var(--nafr-muted);max-width:60ch}
+.nafr-dark .nafr-lead{color:var(--nafr-on-dark-muted)}
+.nafr-btn{display:inline-flex;align-items:center;gap:10px;padding:14px 22px;border-radius:999px;font-weight:600;text-decoration:none;border:2px solid transparent;transition:transform .2s,background .2s}
+.nafr-btn:hover{transform:translateY(-2px)}
+.nafr-btn--primary{background:var(--nafr-accent);color:#fff}
+.nafr-btn--primary:hover{background:var(--nafr-accent-strong)}
+.nafr-btn--ghost{border-color:currentColor;color:inherit}
+/* header */
+.nafr-header{position:fixed;inset:0 0 auto;z-index:50;color:var(--nafr-on-dark);transition:background .3s,box-shadow .3s}
+.nafr-header.is-solid{background:rgba(16,22,31,.96);box-shadow:0 6px 24px rgba(0,0,0,.2)}
+.nafr-header__bar{display:flex;align-items:center;justify-content:space-between;height:74px}
+.nafr-logo{display:flex;align-items:center;gap:10px;color:inherit;text-decoration:none;font:600 1.1rem var(--nafr-display)}
+.nafr-logo svg{width:34px;height:34px}
+.nafr-logo small{display:block;font:500 .66rem var(--nafr-mono);letter-spacing:.14em;color:var(--nafr-on-dark-muted)}
+.nafr-nav ul{display:flex;gap:26px;list-style:none;margin:0;padding:0;align-items:center}
+.nafr-nav a{color:inherit;text-decoration:none;font-weight:500}
+.nafr-nav a:hover,.nafr-nav a[aria-current=page]{color:#ff8a73}
+.nafr-nav .nafr-btn{padding:10px 18px;color:#fff}
+.nafr-burger{display:none;background:none;border:2px solid currentColor;color:inherit;border-radius:10px;width:46px;height:42px;font-size:1.3rem}
+@media (max-width:900px){.nafr-burger{display:block}
+.nafr-nav{position:absolute;top:74px;left:0;right:0;background:var(--nafr-ink);display:none;padding:12px 16px 24px}
+.nafr-nav.is-open{display:block}.nafr-nav ul{flex-direction:column;align-items:flex-start;gap:16px}}
+/* hero */
+.nafr-hero{position:relative;background:var(--nafr-ink);color:var(--nafr-on-dark);padding:150px 0 90px;overflow:hidden}
+.nafr-hero--sub{padding:140px 0 70px}
+.nafr-hero__grid{display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center}
+@media (max-width:900px){.nafr-hero__grid{grid-template-columns:1fr}}
+.nafr-hero__actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:28px}
+.nafr-chart{background:var(--nafr-ink-2);border:1px solid #2c394a;border-radius:var(--nafr-radius);padding:20px}
+.nafr-chart svg{width:100%;height:auto}
+.nafr-chart__legend{display:flex;justify-content:space-between;font:500 .75rem var(--nafr-mono);color:var(--nafr-on-dark-muted);margin-top:10px}
+.nafr-chart__pause{background:none;border:1px solid #3b4a5e;color:var(--nafr-on-dark);border-radius:8px;padding:4px 10px;font:inherit;cursor:pointer}
+.nafr-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:40px}
+.nafr-stats strong{display:block;font:600 1.9rem var(--nafr-display);color:#fff}
+.nafr-stats span{font-size:.9rem;color:var(--nafr-on-dark-muted)}
+/* sections */
+.nafr-section{padding:96px 0}
+.nafr-section--alt{background:#ece8df}
+.nafr-dark{background:var(--nafr-ink);color:var(--nafr-on-dark)}
+.nafr-head{max-width:760px;margin-bottom:48px}
+.nafr-grid{display:grid;gap:22px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+.nafr-card{background:var(--nafr-card);border:1px solid var(--nafr-line);border-radius:var(--nafr-radius);padding:28px;transition:transform .25s,box-shadow .25s}
+.nafr-card:hover{transform:translateY(-4px);box-shadow:0 18px 40px rgba(16,22,31,.08)}
+.nafr-card p{color:var(--nafr-muted);margin:0 0 12px}
+.nafr-card__tag{font:500 .75rem var(--nafr-mono);color:var(--nafr-signal);letter-spacing:.08em}
+.nafr-card a.nafr-more{font-weight:600;text-decoration:none}
+.nafr-card a.nafr-more::after{content:" \2192"}
+.nafr-dark .nafr-card{background:var(--nafr-ink-2);border-color:#2c394a}
+.nafr-dark .nafr-card p{color:var(--nafr-on-dark-muted)}
+.nafr-waste{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:2px;background:var(--nafr-line);border:1px solid var(--nafr-line);border-radius:var(--nafr-radius);overflow:hidden}
+.nafr-waste div{background:var(--nafr-paper);padding:22px}
+.nafr-waste b{font:600 2rem var(--nafr-display);color:var(--nafr-accent)}
+.nafr-waste p{margin:4px 0 0;color:var(--nafr-muted);font-size:.95rem}
+.nafr-dmaic{display:grid;grid-template-columns:repeat(5,1fr);gap:0;counter-reset:s}
+@media (max-width:900px){.nafr-dmaic{grid-template-columns:1fr}}
+.nafr-dmaic li{list-style:none;padding:26px 22px;border-top:4px solid var(--nafr-line);transition:border-color .4s}
+.nafr-dmaic li.is-in{border-color:var(--nafr-accent)}
+.nafr-dmaic b{font:600 3rem var(--nafr-display);display:block;color:var(--nafr-accent)}
+.nafr-dmaic p{color:var(--nafr-muted);margin:0}
+.nafr-dmaic.nafr-on-dark p{color:var(--nafr-on-dark-muted)}
+.nafr-split{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+@media (max-width:900px){.nafr-split{grid-template-columns:1fr}}
+.nafr-split img{border-radius:var(--nafr-radius);aspect-ratio:4/3;object-fit:cover;width:100%}
+.nafr-list{padding:0;list-style:none}
+.nafr-list li{padding:12px 0 12px 30px;border-bottom:1px solid var(--nafr-line);position:relative}
+.nafr-list li::before{content:"";position:absolute;left:0;top:21px;width:14px;height:2px;background:var(--nafr-accent)}
+.nafr-dark .nafr-list li{border-color:#2c394a}
+.nafr-table{width:100%;border-collapse:collapse;background:var(--nafr-card);border-radius:var(--nafr-radius);overflow:hidden}
+.nafr-table th,.nafr-table td{text-align:left;padding:16px;border-bottom:1px solid var(--nafr-line);vertical-align:top}
+.nafr-table th{font-family:var(--nafr-display);background:#e6e1d6}
+.nafr-tablewrap{overflow-x:auto}
+.nafr-note{font:500 .8rem var(--nafr-mono);color:var(--nafr-muted)}
+.nafr-quote{font:500 1.35rem/1.5 var(--nafr-display);margin:0 0 14px}
+/* faq */
+.nafr-faq details{border-bottom:1px solid var(--nafr-line);padding:18px 0}
+.nafr-faq summary{font:600 1.15rem var(--nafr-display);cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:16px}
+.nafr-faq summary::after{content:"+";color:var(--nafr-accent);font-size:1.5rem;line-height:1}
+.nafr-faq details[open] summary::after{content:"\2212"}
+.nafr-faq p{color:var(--nafr-muted);margin:12px 0 0;max-width:72ch}
+/* cta + form */
+.nafr-cta{display:grid;grid-template-columns:1fr 1fr;gap:56px}
+@media (max-width:900px){.nafr-cta{grid-template-columns:1fr}}
+.nafr-form{background:var(--nafr-card);color:var(--nafr-text);border-radius:var(--nafr-radius);padding:30px;display:grid;gap:16px}
+.nafr-form label{font-weight:600;font-size:.95rem;display:grid;gap:6px}
+.nafr-form input,.nafr-form textarea,.nafr-form select{font:inherit;padding:12px 14px;border:1.5px solid #8a8f98;border-radius:10px;background:#fff;color:var(--nafr-text)}
+.nafr-form button{justify-self:start;cursor:pointer;font:inherit}
+.nafr-contact dt{font:500 .75rem var(--nafr-mono);letter-spacing:.1em;color:var(--nafr-on-dark-muted);margin-top:16px}
+.nafr-contact dd{margin:4px 0 0}.nafr-contact a{color:#fff}
+/* footer */
+.nafr-footer{background:#0b1017;color:var(--nafr-on-dark-muted);padding:64px 0 28px}
+.nafr-footer__grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:40px}
+@media (max-width:800px){.nafr-footer__grid{grid-template-columns:1fr}}
+.nafr-footer h2{font-size:1rem;color:#fff;margin-bottom:14px}
+.nafr-footer ul{list-style:none;padding:0;margin:0;display:grid;gap:10px}
+.nafr-footer a{color:var(--nafr-on-dark);text-decoration:none}.nafr-footer a:hover{text-decoration:underline}
+.nafr-footer__base{border-top:1px solid #222c39;margin-top:44px;padding-top:22px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;font-size:.88rem}
+.nafr-top{position:fixed;right:20px;bottom:20px;width:48px;height:48px;border-radius:50%;border:0;background:var(--nafr-accent);color:#fff;font-size:1.3rem;cursor:pointer;opacity:0;pointer-events:none;transition:opacity .3s;z-index:40}
+.nafr-top.is-on{opacity:1;pointer-events:auto}
+.nafr-reveal{opacity:0;transform:translateY(24px);transition:opacity .7s,transform .7s}
+.nafr-reveal.is-in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.nafr-reveal{opacity:1;transform:none}}
+.nafr-prose{max-width:760px}.nafr-prose h2{font-size:1.6rem;margin-top:40px}
+</style>
+<script>window.AODA_ADA_CONFIG={statementUrl:'/accessibility',feedbackEmail:'info@mockup.ngynsolutions.com',side:'left',
+tokens:{'--aoda-accent':'#d7351f','--aoda-accent-strong':'#a8240f','--aoda-on-accent':'#ffffff','--aoda-accent-soft':'#fbe3de',
+'--aoda-font':"'DM Sans', 'DM Sans Fallback', sans-serif"}};</script>
+<script src="aoda-ada.min.js"></script>
+</head><body>
+<a class="nafr-skip" href="#main">Skip to content</a>
+<header class="nafr-header" id="nafr-header"><div class="nafr-wrap nafr-header__bar">
+<a class="nafr-logo" href="/" aria-label="NGYN AI Frontier home"><svg viewBox="0 0 40 40" aria-hidden="true"><rect x="1" y="1" width="38" height="38" rx="9" fill="none" stroke="#ff8a73" stroke-width="2"/><path d="M6 30 L13 14 L19 24 L25 10 L34 20" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><line x1="6" y1="33" x2="34" y2="33" stroke="#ff8a73" stroke-width="2" stroke-dasharray="3 3"/></svg><span>NGYN AI Frontier<small>LEAN SIX SIGMA</small></span></a>
+<button class="nafr-burger" aria-expanded="false" aria-controls="nafr-nav" aria-label="Open menu">&#9776;</button>
+<nav class="nafr-nav" id="nafr-nav" aria-label="Main"><ul><li><a href="/dmaic-process-improvement">DMAIC</a></li><li><a href="/lean-six-sigma-small-business" aria-current="page">Small business</a></li><li><a href="/lean-six-sigma-training">Training</a></li><li><a href="/#faq">FAQ</a></li><li><a class="nafr-btn nafr-btn--primary" href="/#contact">Book a process review</a></li></ul></nav>
+</div></header>
+<main id="main" tabindex="-1">
+<section class="nafr-hero nafr-hero--sub"><div class="nafr-wrap nafr-hero__grid">
+<div><p class="nafr-eyebrow">Lean Six Sigma for small business</p><h1>Lean Six Sigma for small business, without the corporate overhead</h1><p class="nafr-lead">You do not need a quality department to run Lean Six Sigma. We bring the method down to the size of your team: short projects, plain language and fixes your people can keep running.</p>
+<div class="nafr-hero__actions"><a class="nafr-btn nafr-btn--primary" href="#contact">Book a process review</a></div></div>
+<img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=1600&q=70&auto=format&fit=crop" alt="Small business team planning work around a table" style="border-radius:14px;aspect-ratio:4/3;object-fit:cover;width:100%" width="800" height="600">
+</div></section>
+<section class="nafr-section"><div class="nafr-wrap">
+<div class="nafr-head nafr-reveal"><p class="nafr-eyebrow">By business size</p><h2>Same method, scaled to you</h2></div>
+<div class="nafr-grid">
+<article class="nafr-card nafr-reveal"><p class="nafr-card__tag">1 TO 10 PEOPLE</p><h3>Owner led</h3><p>The owner is the bottleneck. We map where your time goes and standardize the work others can take over.</p></article>
+<article class="nafr-card nafr-reveal"><p class="nafr-card__tag">11 TO 50 PEOPLE</p><h3>Growing team</h3><p>Handoffs multiply and quality drifts. We set standard work, visual boards and one DMAIC project on the costliest process.</p></article>
+<article class="nafr-card nafr-reveal"><p class="nafr-card__tag">51 TO 250 PEOPLE</p><h3>Scaling operation</h3><p>Departments optimize alone. We run cross functional value stream mapping and train internal Green Belts.</p></article>
+<article class="nafr-card nafr-reveal"><p class="nafr-card__tag">250+ PEOPLE</p><h3>Multi site</h3><p>Variation between sites. We build a project pipeline, a control dashboard and a belt program.</p></article>
+</div></div></section>
+
+<section class="nafr-section nafr-section--alt"><div class="nafr-wrap nafr-split">
+<img class="nafr-reveal" src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1600&q=70&auto=format&fit=crop" alt="Organized shared workspace with labelled storage" width="800" height="600" loading="lazy">
+<div class="nafr-reveal"><p class="nafr-eyebrow">Quick wins</p><h2>Results in the first two weeks</h2>
+<ul class="nafr-list"><li><strong>5S workplace organization</strong>: less searching, fewer errors</li>
+<li><strong>Kaizen event</strong>: one process redesigned and live in a week</li>
+<li><strong>Visual management board</strong>: problems seen the same day</li>
+<li><strong>Standard work</strong>: the best way written down and trained</li>
+<li><strong>Simple automation</strong>: one repeated manual step removed</li></ul></div>
+</div></section>
+
+<section class="nafr-section"><div class="nafr-wrap nafr-prose">
+<p class="nafr-eyebrow">FAQ</p><h2>Small business questions</h2><div class="nafr-faq"><details><summary>Can a small business use Lean Six Sigma?</summary><p>Yes. Small businesses often see results faster than large ones because decisions are quick and the process is visible end to end. We use the lighter Lean tools first and bring in statistics only when the problem needs them.</p></details><details><summary>What is the easiest Lean tool to start with?</summary><p>5S (Sort, Set in order, Shine, Standardize, Sustain) is the usual starting point. It needs no software, takes days, and makes every later improvement easier to see.</p></details><details><summary>What is a Kaizen event?</summary><p>A Kaizen event is a focused improvement workshop, usually two to five days, where the people who do the work redesign one process and implement the change before the week ends.</p></details><details><summary>How much does Lean Six Sigma consulting cost for a small business?</summary><p>It depends on scope. For this test site the figures are placeholders: a process review is a fixed fee, and projects are quoted after the Define phase so you know the cost before committing.</p></details></div>
+<p style="margin-top:32px">Want your team to run this on their own? See <a href="/lean-six-sigma-training">Lean Six Sigma training</a>.</p></div></section>
+<section class="nafr-section nafr-dark" id="contact"><div class="nafr-wrap nafr-cta">
+<div class="nafr-reveal"><p class="nafr-eyebrow">Contact</p><h2>Find your biggest waste in two weeks</h2><p class="nafr-lead">Tell us which process hurts. We map it, measure it and come back with the three changes worth making first, ranked by payback.</p>
+<dl class="nafr-contact"><dt>PHONE</dt><dd><a href="tel:+19999999999">+1 999-999-9999</a></dd>
+<dt>EMAIL</dt><dd><a href="mailto:info@mockup.ngynsolutions.com">info@mockup.ngynsolutions.com</a></dd>
+<dt>OFFICE</dt><dd>001 NoWhere Avenue, ON, G5G 0R0, Canada</dd></dl></div>
+<form class="nafr-form nafr-reveal" action="/thank-you" method="get">
+<label>Name<input name="name" autocomplete="name" required></label>
+<label>Work email<input type="email" name="email" autocomplete="email" required></label>
+<label>Phone<input type="tel" name="phone" autocomplete="tel"></label>
+<label>Company size<select name="size"><option>1 to 10 people</option><option>11 to 50 people</option><option>51 to 250 people</option><option>250+ people</option></select></label>
+<label>Which process is costing you the most?<textarea name="message" rows="4"></textarea></label>
+<button class="nafr-btn nafr-btn--primary" type="submit">Request my process review</button>
+</form></div></section>
+</main>
+<footer class="nafr-footer"><div class="nafr-wrap">
+<div class="nafr-footer__grid">
+<div><a class="nafr-logo" href="/" style="color:#fff"><svg viewBox="0 0 40 40" aria-hidden="true"><rect x="1" y="1" width="38" height="38" rx="9" fill="none" stroke="#ff8a73" stroke-width="2"/><path d="M6 30 L13 14 L19 24 L25 10 L34 20" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><line x1="6" y1="33" x2="34" y2="33" stroke="#ff8a73" stroke-width="2" stroke-dasharray="3 3"/></svg><span>NGYN AI Frontier<small>LEAN SIX SIGMA</small></span></a>
+<p>Lean Six Sigma process improvement for businesses of every size, with practical automation where the data says it pays.</p>
+<address style="font-style:normal">001 NoWhere Avenue, ON, G5G 0R0, Canada<br><a href="tel:+19999999999">+1 999-999-9999</a><br><a href="mailto:info@mockup.ngynsolutions.com">info@mockup.ngynsolutions.com</a></address></div>
+<div><h2>Services</h2><ul>
+<li><a href="/dmaic-process-improvement">DMAIC process improvement</a></li>
+<li><a href="/lean-six-sigma-small-business">Lean Six Sigma for small business</a></li>
+<li><a href="/lean-six-sigma-training">Belt training and coaching</a></li></ul></div>
+<div><h2>Company</h2><ul>
+<li><a href="/#method">How we work</a></li><li><a href="/#faq">FAQ</a></li>
+<li><a href="/#contact">Contact</a></li><li><a href="/accessibility">Accessibility</a></li></ul></div>
+</div>
+<div class="nafr-footer__base"><span>&copy; 2026 NGYN AI Frontier. All rights reserved.</span><span>Measure first. Improve what matters. Keep it in control.</span></div>
+</div></footer>
+<button class="nafr-top" id="nafr-top" aria-label="Back to top">&#8593;</button>
+<script>
+(function(){
+var h=document.getElementById('nafr-header'),top=document.getElementById('nafr-top');
+function setPad(){document.documentElement.style.scrollPaddingTop=(h.offsetHeight+12)+'px'}
+function onScroll(){var y=window.scrollY;h.classList.toggle('is-solid',y>30);top.classList.toggle('is-on',y>700)}
+setPad();onScroll();addEventListener('resize',setPad);addEventListener('scroll',onScroll,{passive:true});
+top.addEventListener('click',function(){scrollTo({top:0,behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'auto':'smooth'});document.getElementById('main').focus()});
+var b=document.querySelector('.nafr-burger'),n=document.getElementById('nafr-nav');
+b.addEventListener('click',function(){var o=n.classList.toggle('is-open');b.setAttribute('aria-expanded',o);b.setAttribute('aria-label',o?'Close menu':'Open menu')});
+document.addEventListener('keydown',function(e){if(e.key==='Escape'&&n.classList.contains('is-open')){n.classList.remove('is-open');b.setAttribute('aria-expanded','false');b.focus()}});
+n.addEventListener('click',function(e){if(e.target.closest('a')){n.classList.remove('is-open');b.setAttribute('aria-expanded','false')}});
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('is-in');io.unobserve(e.target)}})},{threshold:.15});
+document.querySelectorAll('.nafr-reveal,.nafr-dmaic li').forEach(function(el){io.observe(el)});
+/* control chart hero: noisy process that settles inside control limits */
+var svg=document.getElementById('nafr-cc');if(!svg)return;
+var line=svg.querySelector('#nafr-cc-line'),dots=svg.querySelector('#nafr-cc-dots'),lbl=document.getElementById('nafr-cc-sigma'),
+btn=document.getElementById('nafr-cc-pause'),N=40,t=0,running=!matchMedia('(prefers-reduced-motion:reduce)').matches,seed=1;
+function rnd(){seed=(seed*16807)%2147483647;return seed/2147483647-.5}
+function draw(){var spread=Math.max(.12,1-t/240),pts=[],html='';
+ seed=7+Math.floor(t/6);
+ for(var i=0;i<N;i++){var x=20+i*(560/(N-1)),late=i/N,s=spread*(1-late*.6)+.12*late,
+  y=150+rnd()*220*s;y=Math.max(18,Math.min(282,y));pts.push(x.toFixed(1)+','+y.toFixed(1));
+  var out=y<70||y>230;html+='<circle cx="'+x.toFixed(1)+'" cy="'+y.toFixed(1)+'" r="4" fill="'+(out?'#ff6b55':'#5fd3b0')+'"/>'}
+ line.setAttribute('points',pts.join(' '));dots.innerHTML=html;
+ lbl.textContent='Process capability: '+(1+ (Math.min(t,240)/240)*3.2).toFixed(1)+' sigma'}
+function loop(){if(running){t=(t+1)%300;draw()}setTimeout(loop,90)}
+if(!running)t=240;draw();loop();
+btn.addEventListener('click',function(){running=!running;btn.textContent=running?'Pause':'Play';btn.setAttribute('aria-pressed',String(!running))});
+if(!running){btn.textContent='Play';btn.setAttribute('aria-pressed','true')}
+})();
+</script>
+</body></html>
