@@ -18,7 +18,7 @@ NAV = [("/dmaic-process-improvement", "DMAIC"),
 CSS = r"""
 :root{--nafr-ink:#10161f;--nafr-ink-2:#1a2330;--nafr-paper:#f6f4ef;--nafr-card:#ffffff;
 --nafr-line:#d9d4c8;--nafr-text:#1b222c;--nafr-muted:#4f5967;--nafr-accent:#d7351f;
---nafr-accent-strong:#a8240f;--nafr-signal:#1f8a70;--nafr-on-dark:#eef1f4;--nafr-on-dark-muted:#a9b4c2;
+--nafr-accent-strong:#a8240f;--nafr-signal:#1b7a63;--nafr-on-dark:#eef1f4;--nafr-on-dark-muted:#a9b4c2;
 --nafr-radius:14px;--nafr-max:1200px;--nafr-display:'Space Grotesk','Space Grotesk Fallback',system-ui,sans-serif;
 --nafr-body:'DM Sans','DM Sans Fallback',system-ui,sans-serif;--nafr-mono:'JetBrains Mono',ui-monospace,monospace}
 *{box-sizing:border-box}html{scroll-behavior:smooth}
@@ -84,6 +84,7 @@ h3{font-size:1.25rem;font-weight:600}
 .nafr-card a.nafr-more{font-weight:600;text-decoration:none}
 .nafr-card a.nafr-more::after{content:" \2192"}
 .nafr-dark .nafr-card{background:var(--nafr-ink-2);border-color:#2c394a}
+.nafr-dark .nafr-card__tag{color:#5fd3b0}
 .nafr-dark .nafr-card p{color:var(--nafr-on-dark-muted)}
 .nafr-waste{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:2px;background:var(--nafr-line);border:1px solid var(--nafr-line);border-radius:var(--nafr-radius);overflow:hidden}
 .nafr-waste div{background:var(--nafr-paper);padding:22px}
